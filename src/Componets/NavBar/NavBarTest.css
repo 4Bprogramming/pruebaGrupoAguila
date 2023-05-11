@@ -1,0 +1,76 @@
+.navBarContainer{
+
+    box-shadow: -4px -16px 20px 18px;
+    background-color: white;
+}
+.navbar-nav{
+    margin-left: 5rem;
+    
+}
+
+.listNavBar{
+    display: flex;
+    
+}
+.navBarLinks{
+    margin-left: 5rem;
+    font-size: 18px;
+   
+    padding-top: 3px;
+}
+.navBarLinks svg {
+    width: 1.5em;
+    height: 1.5em;
+    
+}
+.listNavBar:hover{
+    
+    color: rgb(153, 15, 15)!important;
+    
+}
+.navBarLinks:hover{
+    font-size: large;
+    text-shadow: 2px 7px 5px rgba(0,0,0,0.3),0px -4px 10px rgba(255,255,255,0.3);
+}
+
+.LogoNavBar{
+    width: 120px;
+}
+
+
+
+
+@media screen and (max-width: 1200px) {
+  
+    .LogoNavBar{
+        width: 150px;
+    }
+    .navbar-nav{
+        margin-left: none;
+    }
+    .navBarLinks{
+        margin-left: 2rem;
+        
+    }
+   
+}
+
+@media screen and (max-width: 720px) {
+    .listNavBar{
+        display: flex;
+        flex-direction: column;
+    }
+    .navBarLinks{
+        margin-left: -2rem;
+        
+    }
+   
+}
+@media screen and (max-width: 400px) {
+    .navbar-nav{
+        margin-left: none!important;
+    }
+    .LogoNavBar{
+        width: 85px;
+    }
+}
